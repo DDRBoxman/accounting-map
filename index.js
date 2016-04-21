@@ -236,6 +236,34 @@
         thousand: ",",
         decimal : "."
       }
+    },
+    "NOK" : {
+      currency: {
+        symbol: "kr.",
+        format: "%s %v",
+        decimal: ",",
+        thousand: ".",
+        precision: 2
+      },
+      number: {
+        precision : 0,
+        thousand: ",",
+        decimal : "."
+      }
+    },
+    "CZK" : {
+      currency: {
+        symbol: "Kč",
+        format: "%v %s",
+        decimal: ".",
+        thousand: ",",
+        precision: 0
+      },
+      number: {
+        precision : 0,
+        thousand: ",",
+        decimal : "."
+      }
     }
   };
 
