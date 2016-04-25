@@ -264,6 +264,20 @@
         thousand: ",",
         decimal : "."
       }
+    },
+    "PLN" : {
+      currency: {
+        symbol: "zł",
+        format: "%v %s",
+        decimal: ",",
+        thousand: " ",
+        precision: 2
+      },
+      number: {
+        precision : 0,
+        thousand: ",",
+        decimal : "."
+      }
     }
   };
 
