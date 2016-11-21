@@ -131,11 +131,15 @@
   var suffixMap = {
     "USD" : "dollars",
     "AUD" : "dollars",
+    "BRL" : "real",
     "CAD" : "dollars",
     "EUR" : "euros",
-    "JPY" : "yen",
     "GBP" : "pounds",
-    "RUB" : "rubles"
+    "JPY" : "yen",
+    "NZD" : "dollars",
+    "RUB" : "rubles",
+    "SEK" : "krona",
+    "THB" : "baht"
   };
 
   var settingsMap = {
@@ -165,6 +169,20 @@
         precision : 0,
         thousand: ",",
         decimal : "."
+      }
+    },
+    "BRL" : {
+      currency: {
+        symbol : "R$",
+        format: "%s %v",
+        decimal : ",",
+        thousand: ".",
+        precision : 2
+      },
+      number: {
+        precision : 0,
+        thousand: ".",
+        decimal : ","
       }
     },
     "CAD" : {
@@ -251,6 +269,20 @@
         decimal : "."
       }
     },
+    "NZD" : {
+      currency: {
+        symbol : "$",
+        format: "%s%v",
+        decimal : ".",
+        thousand: ",",
+        precision : 2
+      },
+      number: {
+        precision : 0,
+        thousand: ",",
+        decimal : "."
+      }
+    },
     "CZK" : {
       currency: {
         symbol: "Kč",
@@ -272,6 +304,34 @@
         decimal: ",",
         thousand: " ",
         precision: 2
+      },
+      number: {
+        precision : 0,
+        thousand: ",",
+        decimal : "."
+      }
+    },
+    "SEK" : {
+      currency: {
+        symbol: "kr.",
+        format: "%v %s",
+        decimal: ",",
+        thousand: ".",
+        precision: 2
+      },
+      number: {
+        precision : 0,
+        thousand: ",",
+        decimal : "."
+      }
+    },
+    "THB" : {
+      currency: {
+        symbol : "฿",
+        format: "%s%v",
+        decimal : ".",
+        thousand: ",",
+        precision : 2
       },
       number: {
         precision : 0,
